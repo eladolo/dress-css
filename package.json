@@ -1,6 +1,6 @@
 {
   "name": "dress-css",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "CSS helper mobile library",
   "main": "dist/css/min/dress.2.0.min.css",
   "type": "module",
