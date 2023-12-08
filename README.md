@@ -6,7 +6,6 @@ CSS helper library [Dress.css](#dresscss)
 - [DEMO](https://eladolo.github.io/dress-css/demo/index.html)
 
 ## Install
-To used it you have to include the following file in your html head:
 ```bash
     npm i dress-css
 ```
