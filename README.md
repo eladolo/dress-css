@@ -6,7 +6,7 @@ CSS helper library [Dress.css](#dresscss)
 - [DEMO](https://eladolo.github.io/dress-css/demo/demo.html)
   
 ----------
-![Logo](https://raw.githubusercontent.com/eladolo/dress-css/main/demo/img/logo.png)
+![Logo](https://raw.githubusercontent.com/eladolo/dress-css/master/demo/img/logo.png)
 ## Tiny Grid
 To used it you have to include the following file in your html head:
 ```bash

@@ -2,11 +2,11 @@
 ```
 DRESS_VERSION=
 ```
-
+###### Run proyect install
 ```
 npm install
 ```
-
+###### Run dev script
 ```
 npm run dev
 ```
