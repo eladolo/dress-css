@@ -3,7 +3,7 @@
 */
 .dress {
     @for $i from 0 through 100 {
-        .p-#{$i} {
+        .m-#{$i} {
             margin: #{$i} + '%';
         }
     }
@@ -13,7 +13,7 @@
 */
 .dress {
     @for $i from 1 through 100 {
-        .pt-#{$i} {
+        .mt-#{$i} {
             margin-top: #{$i} + '%';
         }
     }
@@ -23,7 +23,7 @@
 */
 .dress {
     @for $i from 1 through 100 {
-        .pt-#{$i} {
+        .ml-#{$i} {
             margin-left: #{$i} + '%';
         }
     }
@@ -33,7 +33,7 @@
 */
 .dress {
     @for $i from 1 through 100 {
-        .pt-#{$i} {
+        .mr-#{$i} {
             margin-right: #{$i} + '%';
         }
     }
@@ -43,7 +43,7 @@
 */
 .dress {
     @for $i from 1 through 100 {
-        .pt-#{$i} {
+        .mb-#{$i} {
             margin-bottom: #{$i} + '%';
         }
     }
