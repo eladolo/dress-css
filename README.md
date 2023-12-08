@@ -46,7 +46,7 @@ To used it you have to include the following file in your html head:
 ```
 or with a CDN
 ```html
-    <link rel="stylesheet" href="https://res.cloudinary.com/chakstudio/raw/upload/v1640449291/dress-min_y0gbrt.css">
+    <link rel="stylesheet" href="https://res.cloudinary.com/chakstudio/raw/upload/v1702018321/dress.2.0.min_isykfo.css">
 ```
 And the following class in your parent container:
 ```html
