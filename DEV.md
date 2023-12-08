@@ -1,13 +1,13 @@
 ###### First create an .env file with the following content:
-```
+```bash
 DRESS_VERSION=
 ```
 ###### Run proyect install
-```
+```bash
 npm install
 ```
 ###### Run dev script
-```
+```bash
 npm run dev
 ```
 
