@@ -1,0 +1,10 @@
+/*
+* Font Size
+*/
+.dress {
+    @for $i from 6 through 72 {
+        .fs-#{$i} {
+            font-size: #{$i}px;
+        }
+    }
+}

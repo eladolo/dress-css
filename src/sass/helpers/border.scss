@@ -1,0 +1,33 @@
+/*
+*  Border Width
+*/
+.dress {
+    @for $i from 1 through 25 {
+        .border-s#{$i} {
+            border-width: #{$i}px;
+        }
+    } 
+}
+/*
+*  Border Style
+*/
+.dress {
+    .border-solid{
+        border-style: solid;
+    }
+    .border-dashed{
+        border-style: dashed;
+    }
+    .border-dotted{
+        border-style: dotted;
+    }
+    .border-double{
+        border-style: double;
+    }
+    .border-ridge{
+        border-style: ridge;
+    }
+    .border-none{
+        border-style: none;
+    }
+}

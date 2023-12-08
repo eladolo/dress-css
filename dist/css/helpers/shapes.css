@@ -1,0 +1,49 @@
+/*
+* Shapes
+*/
+.dress .rounded {
+  border-radius: 5px;
+}
+.dress .circle {
+  border-radius: 50%;
+}
+.dress .sqr-24 {
+  width: 24px;
+  height: 24px;
+}
+.dress .sqr-48 {
+  width: 48px;
+  height: 48px;
+}
+.dress .sqr-72 {
+  width: 72px;
+  height: 72px;
+}
+.dress .sqr-96 {
+  width: 96px;
+  height: 96px;
+}
+.dress .sqr-128 {
+  width: 128px;
+  height: 128px;
+}
+.dress .rec-24 {
+  width: 24px;
+  height: 48px;
+}
+.dress .rec-48 {
+  width: 48px;
+  height: 72px;
+}
+.dress .rec-72 {
+  width: 72px;
+  height: 96px;
+}
+.dress .rec-96 {
+  width: 96px;
+  height: 128px;
+}
+.dress .rec-128 {
+  width: 128px;
+  height: 256px;
+}

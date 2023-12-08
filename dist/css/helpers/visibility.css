@@ -1,0 +1,97 @@
+/*
+* Opacity
+*/
+.dress .op-0 {
+  opacity: calc(0 * 0.1);
+}
+.dress .op-1 {
+  opacity: calc(1 * 0.1);
+}
+.dress .op-2 {
+  opacity: calc(2 * 0.1);
+}
+.dress .op-3 {
+  opacity: calc(3 * 0.1);
+}
+.dress .op-4 {
+  opacity: calc(4 * 0.1);
+}
+.dress .op-5 {
+  opacity: calc(5 * 0.1);
+}
+.dress .op-6 {
+  opacity: calc(6 * 0.1);
+}
+.dress .op-7 {
+  opacity: calc(7 * 0.1);
+}
+.dress .op-8 {
+  opacity: calc(8 * 0.1);
+}
+.dress .op-9 {
+  opacity: calc(9 * 0.1);
+}
+.dress .op-10 {
+  opacity: calc(10 * 0.1);
+}
+
+/*
+* Overflow
+*/
+.dress .overflow-auto {
+  overflow: auto;
+}
+.dress .overflow-hidden {
+  overflow: hidden;
+}
+.dress .overflow-scroll {
+  overflow: scroll;
+}
+.dress .overflow-autohide {
+  overflow: hidden;
+}
+.dress .overflow-autohide:hover {
+  overflow: auto;
+}
+
+/*
+* Mouse Hover
+*/
+.dress .mouse-over:hover {
+  box-shadow: 5px 12px 17px black;
+}
+
+/*
+* Position
+*/
+.dress .center {
+  margin: 0 auto;
+}
+.dress .left {
+  float: left;
+}
+.dress .right {
+  float: right;
+}
+.dress .absolute {
+  position: absolute;
+}
+.dress .relative {
+  position: relative;
+}
+.dress .fixed {
+  position: fixed;
+}
+
+/*
+* Display
+*/
+.dress .d-none {
+  display: none;
+}
+.dress .d-block {
+  display: block;
+}
+.dress .d-iblock {
+  display: inline-block;
+}

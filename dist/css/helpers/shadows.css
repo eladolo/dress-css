@@ -1,0 +1,9 @@
+/*
+* Shadows
+*/
+.dress .text-shadow {
+  text-shadow: 1px 2px black;
+}
+.dress .box-shadow {
+  box-shadow: 1px 10px 15px black;
+}

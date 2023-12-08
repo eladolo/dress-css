@@ -1,0 +1,158 @@
+/*
+* Colors
+* "black", "white", "gray", "silver", "maroon", "red", "purple",
+* "hotpink", "green", "lime", "olive", "yellow", "navy", "blue",
+* "teal", and "aqua"
+*/
+.dress .black {
+  color: black;
+}
+.dress .white {
+  color: white;
+}
+.dress .gray {
+  color: gray;
+}
+.dress .silver {
+  color: silver;
+}
+.dress .maroon {
+  color: maroon;
+}
+.dress .red {
+  color: red;
+}
+.dress .purple {
+  color: purple;
+}
+.dress .hotpink {
+  color: hotpink;
+}
+.dress .green {
+  color: green;
+}
+.dress .lime {
+  color: lime;
+}
+.dress .olive {
+  color: olive;
+}
+.dress .yellow {
+  color: yellow;
+}
+.dress .navy {
+  color: navy;
+}
+.dress .blue {
+  color: blue;
+}
+.dress .teal {
+  color: teal;
+}
+.dress .aqua {
+  color: aqua;
+}
+
+/*
+* Color Background
+*/
+.dress .bg-black {
+  background-color: black;
+}
+.dress .bg-white {
+  background-color: white;
+}
+.dress .bg-gray {
+  background-color: gray;
+}
+.dress .bg-silver {
+  background-color: silver;
+}
+.dress .bg-maroon {
+  background-color: maroon;
+}
+.dress .bg-red {
+  background-color: red;
+}
+.dress .bg-purple {
+  background-color: purple;
+}
+.dress .bg-hotpink {
+  background-color: hotpink;
+}
+.dress .bg-green {
+  background-color: green;
+}
+.dress .bg-lime {
+  background-color: lime;
+}
+.dress .bg-olive {
+  background-color: olive;
+}
+.dress .bg-yellow {
+  background-color: yellow;
+}
+.dress .bg-navy {
+  background-color: navy;
+}
+.dress .bg-blue {
+  background-color: blue;
+}
+.dress .bg-teal {
+  background-color: teal;
+}
+.dress .bg-aqua {
+  background-color: aqua;
+}
+
+/*
+* Color Border
+*/
+.dress .border-black {
+  border-color: black;
+}
+.dress .border-white {
+  border-color: white;
+}
+.dress .border-gray {
+  border-color: gray;
+}
+.dress .border-silver {
+  border-color: silver;
+}
+.dress .border-maroon {
+  border-color: maroon;
+}
+.dress .border-red {
+  border-color: red;
+}
+.dress .border-purple {
+  border-color: purple;
+}
+.dress .border-hotpink {
+  border-color: hotpink;
+}
+.dress .border-green {
+  border-color: green;
+}
+.dress .border-lime {
+  border-color: lime;
+}
+.dress .border-olive {
+  border-color: olive;
+}
+.dress .border-yellow {
+  border-color: yellow;
+}
+.dress .border-navy {
+  border-color: navy;
+}
+.dress .border-blue {
+  border-color: blue;
+}
+.dress .border-teal {
+  border-color: teal;
+}
+.dress .border-aqua {
+  border-color: aqua;
+}

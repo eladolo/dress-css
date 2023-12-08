@@ -1,0 +1,28 @@
+{
+  "name": "dress-css-v2",
+  "version": "2.0.0",
+  "description": "CSS helper mobile library",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "dress",
+    "css"
+  ],
+  "author": "eladolo@chakstudio.com",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "minify": "^10.5.2",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0"
+  }
+}

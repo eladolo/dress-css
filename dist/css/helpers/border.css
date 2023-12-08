@@ -1,0 +1,100 @@
+/*
+*  Border Width
+*/
+.dress .border-s1 {
+  border-width: 1px;
+}
+.dress .border-s2 {
+  border-width: 2px;
+}
+.dress .border-s3 {
+  border-width: 3px;
+}
+.dress .border-s4 {
+  border-width: 4px;
+}
+.dress .border-s5 {
+  border-width: 5px;
+}
+.dress .border-s6 {
+  border-width: 6px;
+}
+.dress .border-s7 {
+  border-width: 7px;
+}
+.dress .border-s8 {
+  border-width: 8px;
+}
+.dress .border-s9 {
+  border-width: 9px;
+}
+.dress .border-s10 {
+  border-width: 10px;
+}
+.dress .border-s11 {
+  border-width: 11px;
+}
+.dress .border-s12 {
+  border-width: 12px;
+}
+.dress .border-s13 {
+  border-width: 13px;
+}
+.dress .border-s14 {
+  border-width: 14px;
+}
+.dress .border-s15 {
+  border-width: 15px;
+}
+.dress .border-s16 {
+  border-width: 16px;
+}
+.dress .border-s17 {
+  border-width: 17px;
+}
+.dress .border-s18 {
+  border-width: 18px;
+}
+.dress .border-s19 {
+  border-width: 19px;
+}
+.dress .border-s20 {
+  border-width: 20px;
+}
+.dress .border-s21 {
+  border-width: 21px;
+}
+.dress .border-s22 {
+  border-width: 22px;
+}
+.dress .border-s23 {
+  border-width: 23px;
+}
+.dress .border-s24 {
+  border-width: 24px;
+}
+.dress .border-s25 {
+  border-width: 25px;
+}
+
+/*
+*  Border Style
+*/
+.dress .border-solid {
+  border-style: solid;
+}
+.dress .border-dashed {
+  border-style: dashed;
+}
+.dress .border-dotted {
+  border-style: dotted;
+}
+.dress .border-double {
+  border-style: double;
+}
+.dress .border-ridge {
+  border-style: ridge;
+}
+.dress .border-none {
+  border-style: none;
+}

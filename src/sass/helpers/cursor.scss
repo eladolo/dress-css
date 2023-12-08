@@ -1,0 +1,20 @@
+/*
+* Cursors
+*/
+.dress {
+    .c-pointer{
+        cursor: pointer;
+    }
+    .c-move{
+        cursor: move;
+    }
+    .c-help{
+        cursor: help;
+    }
+    .c-wait{
+        cursor: wait;
+    }
+    .c-hand{
+        cursor: grab;
+    }
+}

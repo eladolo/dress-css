@@ -1,0 +1,50 @@
+/*
+* margin
+*/
+.dress {
+    @for $i from 0 through 100 {
+        .p-#{$i} {
+            margin: #{$i} + '%';
+        }
+    }
+}
+/*
+* margin top
+*/
+.dress {
+    @for $i from 1 through 100 {
+        .pt-#{$i} {
+            margin-top: #{$i} + '%';
+        }
+    }
+}
+/*
+* margin left
+*/
+.dress {
+    @for $i from 1 through 100 {
+        .pt-#{$i} {
+            margin-left: #{$i} + '%';
+        }
+    }
+}
+/*
+* margin right
+*/
+.dress {
+    @for $i from 1 through 100 {
+        .pt-#{$i} {
+            margin-right: #{$i} + '%';
+        }
+    }
+}
+/*
+* margin bottom
+*/
+.dress {
+    @for $i from 1 through 100 {
+        .pt-#{$i} {
+            margin-bottom: #{$i} + '%';
+        }
+    }
+}

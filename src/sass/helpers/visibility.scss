@@ -1,0 +1,75 @@
+/*
+* Opacity
+*/
+.dress {
+    @for $i from 0 through 10 {
+        .op-#{$i} {
+            opacity: calc(#{$i} * 0.1);
+        }
+    }
+}
+/*
+* Overflow
+*/
+.dress {
+    .overflow-auto{
+        overflow:  auto;
+    }
+    .overflow-hidden{
+        overflow: hidden;
+    }
+    .overflow-scroll{
+        overflow: scroll;
+    }
+    .overflow-autohide{
+        overflow: hidden;
+    }
+    .overflow-autohide:hover{
+        overflow: auto;
+    }
+}
+/*
+* Mouse Hover
+*/
+.dress {
+    .mouse-over:hover{
+        box-shadow: 5px 12px 17px black;
+    }
+}
+/*
+* Position
+*/
+.dress {
+    .center{
+        margin: 0 auto;
+    }
+    .left{
+        float: left;
+    }
+    .right{
+        float: right;
+    }
+    .absolute{
+        position:  absolute;
+    }
+    .relative{
+        position:  relative;
+    }
+    .fixed{
+        position:  fixed;
+    }
+}
+/*
+* Display
+*/
+.dress {
+    .d-none{
+        display:  none;
+    }
+    .d-block{
+        display:  block;
+    }
+    .d-iblock{
+        display:  inline-block;
+    }
+}
