@@ -27,6 +27,23 @@
     .overflow-autohide:hover{
         overflow: auto;
     }
+    .scroller{
+        $light-color: #a1887f;
+        $dark-color: #8d6e63;
+		
+        &::-webkit-scrollbar {
+			width: 16px;
+			background-color: $light-color;
+		}
+		&::-webkit-scrollbar-track {
+			-webkit-box-shadow: inset 0 0 6px $light-color;
+		}
+		&::-webkit-scrollbar-thumb {
+			border-radius: 4px;
+			-webkit-box-shadow: inset 0 0 6px $light-color;
+			background-color: $dark-color;
+		}
+	}
 }
 /*
 * Mouse Hover
