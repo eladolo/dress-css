@@ -2,7 +2,7 @@
   "name": "dress-css-v2",
   "version": "2.0.0",
   "description": "CSS helper mobile library",
-  "main": "index.js",
+  "main": "dist/css/min/dress.2.0.min.css",
   "type": "module",
   "scripts": {
     "test": "node index.js",
