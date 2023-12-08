@@ -3,7 +3,7 @@ lightweight CSS flex grid library [Tiny Grid](#tiny-grid)
 #### ➕ 
 CSS helper library [Dress.css](#dresscss)
 #### For creating responsive UI's
-- [DEMO](https://eladolo.github.io/dress-css/demo/demo.html)
+- [DEMO](https://eladolo.github.io/dress-css/demo/index.html)
   
 ----------
 ![Logo](https://raw.githubusercontent.com/eladolo/dress-css/master/demo/logo.png)
