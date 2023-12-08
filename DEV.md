@@ -11,4 +11,4 @@ npm install
 npm run dev
 ```
 
-###### The you can change/add/remove the .scss files in src folder and see the changes in dist folder  
+###### Then you can change/add/remove the .scss files in src folder and see the changes in dist folder  

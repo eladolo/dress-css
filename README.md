@@ -44,7 +44,6 @@ For advance control in the flex grid behavior:
 - ".tg-align{-, -md-,-sm-}{flex-start,flex-end,center,strech,baseline}" for control flex align behavior
 - ".tg-align-content{-, -md-,-sm-}{flex-start,flex-end,center,strech,space-between,space-around}" for control flex align-content behavior
 ## Dress.css
-To used it you have to include the following file in your html head:
 ```bash
     ./dist/css/min/dress.2.0.min.css
 ```
