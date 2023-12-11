@@ -1,5 +1,5 @@
 /*
-* Title:  Dress css 2.0.0
+* Title:  Dress css 2.0.8
 * Autor: eladolo@chakstudio.com
 * License:  MIT
 * Description: css helper system
@@ -4363,150 +4363,129 @@
 }
 
 /*
-* Title:  Tinygrid css 2.0.0
+* Title:  Tinygrid css 2.0.1
 * Autor: eladolo@chakstudio.com
 * License:  MIT
 * Description: responsive grid css system build with flex
 */
 /*
-*Grid
+* lg/none prefix
 */
-.tg-container {
-  width: 95%;
-  margin: auto;
-  padding: 10px;
+@media screen and (min-width: 1025px) {
+  /*
+  *grid
+  */
+  .tg-container {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+  }
+  .tg-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    margin: auto;
+    padding: 10px;
+  }
+  /*
+  *grid justify
+  */
+  .tg-justify-flex-start {
+    justify-content: flex-start !important;
+  }
+  .tg-justify-flex-end {
+    justify-content: flex-end !important;
+  }
+  .tg-justify-center {
+    justify-content: center !important;
+  }
+  /*
+  *grid align
+  */
+  .tg-align-flex-start {
+    align-items: flex-start !important;
+  }
+  .tg-align-flex-end {
+    align-items: flex-end !important;
+  }
+  .tg-align-center {
+    align-items: center !important;
+  }
+  .tg-align-stretch {
+    align-items: stretch !important;
+  }
+  .tg-align-baseline {
+    align-items: baseline !important;
+  }
+  /*
+  *grid align-content
+  */
+  .tg-align-content-flex-start {
+    align-content: flex-start !important;
+  }
+  .tg-align-content-flex-end {
+    align-content: flex-end !important;
+  }
+  .tg-align-content-center {
+    align-content: center !important;
+  }
+  .tg-align-content-stretch {
+    align-content: stretch !important;
+  }
+  .tg-align-content-space-between {
+    align-content: space-between !important;
+  }
+  .tg-align-content-space-around {
+    align-content: space-around !important;
+  }
+  /*
+  *grid cols 12
+  */
+  .tg-col-12 {
+    width: 100%;
+  }
+  .tg-col-11 {
+    width: 91.63%;
+  }
+  .tg-col-10 {
+    width: 83.3%;
+  }
+  .tg-col-9 {
+    width: 74.97%;
+  }
+  .tg-col-8 {
+    width: 66.64%;
+  }
+  .tg-col-7 {
+    width: 58.31%;
+  }
+  .tg-col-6 {
+    width: 49.98%;
+  }
+  .tg-col-5 {
+    width: 41.65%;
+  }
+  .tg-col-4 {
+    width: 33.32%;
+  }
+  .tg-col-3 {
+    width: 24.99%;
+  }
+  .tg-col-2 {
+    width: 16.66%;
+  }
+  .tg-col-1 {
+    width: 8.33%;
+  }
+  .lg-hide {
+    display: none;
+  }
+  .lg-show {
+    display: initial;
+  }
 }
-
-.tg-row {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: stretch;
-  margin: auto;
-  padding: 10px;
-}
-
-/*
-*Grid justify
-*/
-.tg-justify-flex-start {
-  justify-content: flex-start !important;
-}
-
-.tg-justify-flex-end {
-  justify-content: flex-end !important;
-}
-
-.tg-justify-center {
-  justify-content: center !important;
-}
-
-/*
-*grid align
-*/
-.tg-align-flex-start {
-  align-items: flex-start !important;
-}
-
-.tg-align-flex-end {
-  align-items: flex-end !important;
-}
-
-.tg-align-center {
-  align-items: center !important;
-}
-
-.tg-align-stretch {
-  align-items: stretch !important;
-}
-
-.tg-align-baseline {
-  align-items: baseline !important;
-}
-
-/*
-*grid align-content
-*/
-.tg-align-content-flex-start {
-  align-content: flex-start !important;
-}
-
-.tg-align-content-flex-end {
-  align-content: flex-end !important;
-}
-
-.tg-align-content-center {
-  align-content: center !important;
-}
-
-.tg-align-content-stretch {
-  align-content: stretch !important;
-}
-
-.tg-align-content-space-between {
-  align-content: space-between !important;
-}
-
-.tg-align-content-space-around {
-  align-content: space-around !important;
-}
-
-/*
-*grid cols 12
-*/
-.tg-col-12 {
-  width: 100%;
-}
-
-.tg-col-11 {
-  width: 91.63%;
-}
-
-.tg-col-10 {
-  width: 83.3%;
-}
-
-.tg-col-9 {
-  width: 74.97%;
-}
-
-.tg-col-8 {
-  width: 66.64%;
-}
-
-.tg-col-7 {
-  width: 58.31%;
-}
-
-.tg-col-6 {
-  width: 49.98%;
-}
-
-.tg-col-5 {
-  width: 41.65%;
-}
-
-.tg-col-4 {
-  width: 33.32%;
-}
-
-.tg-col-3 {
-  width: 24.99%;
-}
-
-.tg-col-2 {
-  width: 16.66%;
-}
-
-.tg-col-1 {
-  width: 8.33%;
-}
-
-.lg-hide {
-  display: none;
-}
-
 /*
 * md prefix
 */
@@ -4609,6 +4588,9 @@
   }
   .md-hide {
     display: none;
+  }
+  .md-show {
+    display: initial;
   }
 }
 /*
@@ -4713,5 +4695,8 @@
   }
   .sm-hide {
     display: none;
+  }
+  .sm-show {
+    display: initial;
   }
 }
